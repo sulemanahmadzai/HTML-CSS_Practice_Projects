@@ -1,0 +1,53 @@
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: #e5e5fd;
+  border: 10px black solid;
+  padding: 100px;
+}
+#ApjPicture {
+  height: 392px;
+  width: 314px;
+  border-radius: 50%;
+  display: inline;
+}
+#first-anchor {
+  color: black;
+  position: relative;
+  left: 500px;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+#h2 {
+  display: inline;
+  position: relative;
+  bottom: 130px;
+  margin-left: 40px;
+  font-size: 69px;
+}
+#h3 {
+  font-size: 23px;
+  display: inline;
+  position: absolute;
+  top: 370px;
+  right: 300px;
+  font-weight: lighter;
+}
+#missile {
+  font-size: 100px;
+  font-weight: 1000;
+  font-family: sans-serif;
+  display: inline;
+}
+
+footer {
+  position: absolute;
+  top: 1060px;
+  right: 150px;
+}
+
+#bio {
+  display: inline;
+}
