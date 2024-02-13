@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Job Application Website</title>
+    <link href="Styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <header>
+          <h1>Job Application</h1>
+          <h2>(Web)</h2>
+        </header>
+        <section class="Section1">
+          <form>
+            <label for="fname" id="fname_label">First Name</label>
+            <label for="lname" id="lname_label">Last Name</label><br />
+            <input type="text" class="input_fname" id="fname" />
+            <input type="text" id="lname" />
+          </form>
+        </section>
+        <section class="Section2">
+          <form>
+            <label for="email" id="email_label">Email</label>
+            <label for="jobRole" id="jobRole_label">Job Role</label><br />
+            <input type="email" class="input_email" id="fname" />
+
+            <select name="jobRole" id="dropdown">
+              <option value="Teacher">Teacher</option>
+              <option value="Assistant Teacher">Assistant Teacher</option>
+              <option value="Professor">Professor</option>
+              <option value="Assistant Professor">Assistant Professor</option>
+            </select>
+          </form>
+        </section>
+        <section class="Section3">
+          <label for="address" id="address_label">Addresse</label>
+          <input type="text" id="address" />
+        </section>
+        <section class="Section4">
+          <form>
+            <label for="fname" id="fname_label">City</label>
+            <label for="lname" id="lname_label">PinCode </label><br />
+            <input type="text" class="input_fname" id="fname" />
+            <input type="text" id="lname" />
+          </form>
+        </section>
+
+        <section class="Section5">
+          <form>
+            <label for="date" id="date_label">Start Date</label>
+            <label for="file" id="file_label">Upload your CV </label><br />
+            <input type="date" id="date_input" />
+            <input type="file" id="file_input" />
+          </form>
+        </section>
+
+        <button class="button">Submit</button>
+
+        <footer></footer>
+      </div>
+    </div>
+  </body>
+</html>

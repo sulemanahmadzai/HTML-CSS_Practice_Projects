@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: aqua;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 10px green solid;
+}
+
+.content {
+  background-color: white;
+  height: 600px;
+  width: 550px;
+  border: 10px black solid;
+}
+
+header h1 {
+  margin-top: 30px;
+  margin-left: 50px;
+  display: inline-block;
+}
+header h2 {
+  display: inline;
+  font-weight: lighter;
+}
+
+.Section1 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.Section1 #fname_label {
+  margin-right: 160px;
+  margin-bottom: 10px;
+}
+.Section1 #lname_label {
+  margin-bottom: 10px;
+}
+.Section1 #fname {
+  margin-right: 30px;
+}
+.Section2 {
+  margin-top: 7px;
+  margin-left: 50px;
+}
+
+.Section2 #email_label {
+  margin-right: 200px;
+}
+.Section2 #jobRole_label {
+  margin-bottom: 10px;
+}
+
+.Section2 .input_email {
+  margin-right: 30px;
+}
+.Section2 #dropdown {
+  width: 200px;
+  height: 35px;
+}
+.Section3 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.Section3 #address_label {
+  display: block;
+}
+
+.Section3 #address {
+  width: 434px;
+  height: 135px;
+}
+
+.Section4 {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.Section4 #fname_label {
+  margin-right: 204px;
+  margin-bottom: 10px;
+}
+
+.Section4 #lname_label {
+  margin-bottom: 10px;
+}
+.Section4 #fname {
+  margin-right: 30px;
+}
+
+.Section5 {
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.Section5 #date_label {
+  margin-right: 204px;
+  margin-bottom: 10px;
+}
+.Section5 #file_label {
+  margin-top: 100px;
+}
+.Section5 #date {
+  margin-right: 30px;
+
+}
+
+.Section5 #file_input {
+  border: 1px black solid;
+  margin-left: 30px;
+}
+
+.button {
+  margin-left: 400px;
+  margin-top: 10px;
+  background-color: red;
+  height: 30px;
+  width: 100px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"],
+input[type="date"] {
+  margin-top: 10px;
+  width: 200px;
+  height: 35px;
+}
